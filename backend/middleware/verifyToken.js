@@ -18,7 +18,7 @@ export const verifyToken = (req, res, next) => {
         if (!decoded) {
             return res.status(401).json({
                 success: false,
-                message: 'No autorizado - token no valida'
+                message: 'No autorizado - token no valida X'
             })
         }
         req.userId = decoded.userId

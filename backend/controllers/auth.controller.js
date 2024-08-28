@@ -115,7 +115,7 @@ export const login = async (req, res) => {
         if (!isPasswordValid) {
             return res.status(400).json({
                 succes: false,
-                message: 'La contraseña introducida es incorrecta'
+                message: 'La contraseña introducida es incorrecta X'
             })
         }
 
